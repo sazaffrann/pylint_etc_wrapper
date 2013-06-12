@@ -44,6 +44,12 @@ Put the following in your ``.emacs``:
         (insert "pylint: disable-msg="))
     (insert msgid)))
 
+(setq auto-mode-alist (append (list (cons "\\.py\\'" 'python-mode))
+                              auto-mode-alist))
+
+(add-hook 'python-mode-hook 'flymake-mode)
+
+
 ````
 
 In each of your Python virtualenv environments, do:
