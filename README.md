@@ -4,7 +4,7 @@ To install
 
 Make sure you're running Emacs 23+
 
-Put ``flymake-cursor.el`` (in this repositor) in your site-lisp directory (or add it manually)
+Put ``flymake-cursor.el`` (in this repository) in your site-lisp directory (or add it manually)
 
 Put ``pylint_etc_wrapper.py`` somewhere and modify the path below to match.
 
